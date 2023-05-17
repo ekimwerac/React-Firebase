@@ -5,7 +5,7 @@ import { useFetch } from '../hooks/useFetch'
 import './Home.css'
 
 export default function Home() {
-  const { data: articles, isPending, error } = useFetch('http://localhost:3000/articles')
+  const { data: articles, isPending, error } = useFetch('http://localhost:8080/articles')
 
   return (
     <div className="home">
