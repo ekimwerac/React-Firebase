@@ -16,7 +16,7 @@ export default function Article() {
       setTimeout (()=>{
       history.push('/')}, 3000);
     }
-  }, [error])
+  }, [error, history])
 
   return (
     <div>
